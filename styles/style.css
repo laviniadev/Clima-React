@@ -42,7 +42,7 @@ body {
   /* vidro com blur e saturação mais suave */
   backdrop-filter: blur(18px) saturate(110%);
   -webkit-backdrop-filter: blur(18px) saturate(110%);
-  background: rgba(30, 30, 30, 0.22);
+  background: rgba(30, 30, 30, 0.337);
   border: 1.5px solid rgba(255 255 255 / 0.12);
   box-shadow:
     0 8px 30px rgba(0 0 0 / 0.2),
