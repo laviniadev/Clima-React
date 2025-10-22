@@ -10,7 +10,7 @@
    ESTILO DO BODY (FUNDO MODERNO ESCURO)
 ================================ */
 body {
-  background-color: rgba(172, 255, 47, 0.311);
+  background-color: rgba(255, 227, 47, 0.311);
   /*background: radial-gradient(circle at top, #1b1b1b, #0d0d0d);*/
   color: #fff;
   min-height: 100vh;
@@ -42,7 +42,7 @@ body {
   /* vidro com blur e saturação mais suave */
   backdrop-filter: blur(18px) saturate(110%);
   -webkit-backdrop-filter: blur(18px) saturate(110%);
-  background: rgba(30, 30, 30, 0.337);
+  background: rgba(30, 30, 30, 0.234);
   border: 1.5px solid rgba(255 255 255 / 0.12);
   box-shadow:
     0 8px 30px rgba(0 0 0 / 0.2),
@@ -80,7 +80,7 @@ body {
   /* sombras brilhantes nos cantos, simulando borda clara */
   box-shadow:
     /* canto superior esquerdo */
-    inset 6px 6px 8px -3px rgba(255 255 255 / 0.5),
+    inset 6px 6px 8px -3px rgba(255, 255, 255, 0.1),
     /* canto inferior direito */
     inset -6px -6px 8px -4px rgba(255 255 255 / 0.25);
 }
@@ -107,7 +107,7 @@ body {
   width: 0;
   background: rgba(30, 30, 30, 0.916);
   border-radius: 14px;
-  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 1; /* atrás dos links */
 }
 
